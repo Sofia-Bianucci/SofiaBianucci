@@ -1,0 +1,82 @@
+html{height: 100vh;}
+body {
+	font-family: "Poppins", sans-serif;
+    background-image: url("../img/fondo.png");
+    background-position: center;
+    background-size:auto;
+    margin: 0;
+    clear: left;
+    float: none;
+    display: inline;
+	min-height: 100vh;
+}
+main {height:auto;
+}
+header {
+    height: 3em;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header div {text-align: center;
+			margin: 0;
+			padding:0;
+}
+header div h1, h2, h3 {display: inline;
+}
+a {text-decoration: none}
+nav {height: 4em;
+	background: rgb(212, 26, 26);
+	margin-top:0.1em;
+	margin-bottom:0.1em;}
+	
+nav img {
+    height: 100%;
+    padding: 0;
+    display: inline-block;}
+nav ul {list-style: none;
+		height: 100%;
+		float: right
+		;padding: 0
+		;margin: 0;
+		align-items: center;
+		display:flex
+		;text-align: center;}
+nav li {display: inline-flex;
+		padding-left: 2em;
+		padding-right: 2em}
+nav a {color: rgb(255, 255, 255)}
+nav a :hover {color: rgb(26, 89, 226);}
+nav a :visited {color:black;}
+article {background: rgba(0,0,0,0.75);
+		color: white;
+		margin: 0 10% ;
+		padding: 3em;
+		
+}
+
+article iframe {display:block;
+		margin: 0 auto;
+		border:0;
+}
+article h3 {text-align: center}
+
+footer address {background: #ffffff;
+		height: 3em;
+		display: flex;
+  		justify-content: center;
+	  	align-items: center;
+		margin: 0;
+		padding: 0;
+}
+
+.darkblue {color: rgb(26, 34, 102);}
+.red {color: #ce0000;}
+
+@media (max-width: 960px){
+header {background: #ffffff;}
+	
+}
+
