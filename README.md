@@ -1,2 +1,3 @@
 # SofiaBianucci
-Parcial 1 de Informatica General
+Primer Parcial - Informática General 
+Artes Multimediales - UNA
